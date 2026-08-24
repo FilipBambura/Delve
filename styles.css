@@ -1,0 +1,43 @@
+.delve-run-modal textarea {
+	width: 100%;
+	resize: none;
+	font-family: inherit;
+}
+
+.delve-run-modal .delve-status {
+	margin: 0.5em 0;
+	color: var(--text-muted);
+	font-style: italic;
+}
+
+.delve-trace-log {
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-s);
+	padding: 0.5em;
+	font-size: var(--font-ui-smaller);
+}
+
+.delve-trace-entry {
+	padding: 0.35em 0;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.delve-trace-entry:last-child {
+	border-bottom: none;
+}
+
+.delve-trace-entry strong {
+	color: var(--text-accent);
+}
+
+.delve-trace-detail {
+	white-space: pre-wrap;
+	word-break: break-word;
+	color: var(--text-muted);
+	margin-top: 0.15em;
+}
+
+.delve-trace-error strong,
+.delve-trace-fallback strong {
+	color: var(--text-error);
+}

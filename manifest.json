@@ -1,0 +1,9 @@
+{
+	"id": "delve",
+	"name": "Delve",
+	"version": "0.1.0",
+	"minAppVersion": "1.4.0",
+	"description": "A read-only AI research agent for your vault. Give it a task, and it autonomously investigates your notes, tags, links and attachments via the Gemini API, then produces a downloadable report.",
+	"author": "Filip Bambura",
+	"isDesktopOnly": false
+}
